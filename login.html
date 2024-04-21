@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+            <img class="logo-img" src="https://1.bp.blogspot.com/-vvaSf8cmvh0/YYs10I3zXVI/AAAAAAAAd0E/peDtZNOZ0-EAHA0dxT0TeCzAwrzr913KACLcBGAsYHQ/s900/Home-repair.jpg" alt="logo">
+        <div class="nav-right">
+            <h1 class="nav-head">WELCOME TO MY WEBSITE</h1>
+            
+        </div>
+    </div>
+    <div class="logsig">
+        <div class="signup">
+          <div class="inst">
+            <h2><span class="instruction">Don't have an account</h2>
+          </div>
+            
+            <form action="submit" method="post">
+                <div>
+                  <label class="names" for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <br>
+                <div>
+                  <label class="names" for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label class="names" for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="Please enter exactly 10 digits" required>
+                </div>
+                <br>
+                <div>
+                  <label class="names" for="password">Password:</label>
+                  <input type="password" id="password" name="password" minlength="8" required>
+                </div>
+                <br>
+                
+                <br>
+                <div>
+                  <input type="submit" value="Submit">
+                </div>
+              </form>
+              
+        </div>
+        <div class="login">
+          <div class="instruction2">
+            <h2><span class="inst1">Alredy have an account</span></h2>
+          </div>
+            
+            <form action="/submit" method="post">
+                <div>
+                  <label class="names" for="email">Email:</label>
+                  <input type="email" id="email" name="email">
+                </div>
+                <br>
+                <div>
+                    <label class="names" for="password">Password:</label>
+                    <input type="password" id="password" name="password" minlength="8">
+                </div>
+                <br>
+                <br>
+                <div class="instruction1">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

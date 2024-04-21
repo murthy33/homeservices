@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+}
+.nav-bar{
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+background-color:rgb(147, 225, 147)
+}
+.logo{
+    padding:10px;
+}
+.logo-img{
+    height: 75px;
+    align-items:center;
+    padding:10px;
+}
+.nav-right{
+    padding:20px;
+    display: flex;
+    flex-direction:row ;
+    align-items:center;
+}
+.profile{
+    height:75px;
+}
+.a-element{
+    padding:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.heading{
+    
+    text-align:center;
+    color: black;
+    justify-content:space-between;
+    margin-top: 45px;
+
+}
+.home{
+    text-align:right;
+}
+.serve{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+}
+.img-icon{
+    height: 300px;
+}
+.image{
+    border:3px blue solid;
+    margin:20px;
+}
+.image:hover{
+    color:green;
+}
+.worker-name{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-align:center;
+    background-color:bisque;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+}
+.wk-name{
+    text-align: center;
+}
+.instruction{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(190, 220, 81);
+    border-radius: 5px;
+
+}
+.inst{
+    text-align: center;
+    border-radius: px;
+}
+.instruction1{
+    text-align: center;
+    background-color:rgb(62, 203, 59);
+}
+.inst1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:turquoise;
+    border-radius: 5px;
+}
+.instruction2{
+    text-align: center;
+    border-radius:5px; 
+}
+
+.nav-head{
+    margin-right: 500px;
+}
+.logsig{
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-between;
+}
+.signup{
+    border:3px red solid;
+    padding:20px;
+    margin-top: 120px;
+    margin-left: 350px;
+    border-radius: 20px;
+    
+}
+.logcustomer{
+    text-align: center;
+    margin-top: 50px;
+}
+.logasemp{
+    text-align: center;
+    margin-top: 1px;
+    background-color:rgb(208, 134, 134) ;
+    font-family: 'Times New Roman', Times, serif;
+    padding:5px;
+    border-radius: 6px;
+}
+.logasemp1{
+    text-align: center;
+    margin-top: 100px;
+}
+.logascus{
+    text-align: center;
+    margin-top: 1px;
+    background-color:rgb(208, 134, 134) ;
+    font-family: 'Times New Roman', Times, serif;
+    padding:5px;
+    border-radius: 6px;
+}
+.logascus1{
+    text-align: center;
+    margin-top: 50px;
+}
+.login{
+    border:3px red solid;
+    padding:20px;
+    margin-top: 120px;
+    margin-right: 350px;  
+    border-radius: 20px;
+    background-color:;
+} 
+body, h2, form, .form-group {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the form container */
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  /* Style labels */
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  /* Style input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style submit button */
+  input[type="submit"] {
+    background-color:rgb(62, 203, 59);;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Style submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .names{
+    background-color: rgb(98, 98, 243);
+    border-radius: 3px;
+    text-align: center;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;  
+  }
+.employee{
+    border:3px solid red;
+    padding:20px;
+    margin-top: 20px;
+    margin-left:550px;
+    margin-right:550px;
+    border-radius:20px;
+    background-color:skyblue;
+}
+  
