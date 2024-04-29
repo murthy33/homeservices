@@ -1,25 +1,32 @@
 body{
     margin: 0;
 }
+.nav-head{
+    text-align: left;
+}
 .nav-bar{
 display:flex;
 flex-direction:row;
 justify-content:space-between;
 background-color:rgb(147, 225, 147)
+
+
 }
-.logo{
-    padding:10px;
-}
+
 .logo-img{
     height: 75px;
     align-items:center;
     padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 .nav-right{
     padding:20px;
     display: flex;
     flex-direction:row ;
     align-items:center;
+    text-align: center;
 }
 .profile{
     height:75px;
@@ -51,6 +58,7 @@ background-color:rgb(147, 225, 147)
     display: flex;
     flex-direction: row;
     margin-top: 1px;
+    justify-content: center;
 }
 .img-icon{
     height: 300px;
@@ -101,9 +109,7 @@ background-color:rgb(147, 225, 147)
     border-radius:5px; 
 }
 
-.nav-head{
-    margin-right: 500px;
-}
+
 .logsig{
     display: flex;
     flex-direction:row ;
@@ -115,6 +121,7 @@ background-color:rgb(147, 225, 147)
     margin-top: 120px;
     margin-left: 350px;
     border-radius: 20px;
+    
     
 }
 .logcustomer{
@@ -151,7 +158,6 @@ background-color:rgb(147, 225, 147)
     margin-top: 120px;
     margin-right: 350px;  
     border-radius: 20px;
-    background-color:;
 } 
 body, h2, form, .form-group {
     margin: 0;
@@ -216,4 +222,32 @@ body, h2, form, .form-group {
     border-radius:20px;
     background-color:skyblue;
 }
-  
+.fogt{
+    text-align: center;
+}
+.form1{
+    
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: #ccc;
+}
+.fgmail{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: large; 
+   text-align: left;
+}
+.workername{
+    text-align: center;
+}
+.worker-name1{
+    background-color: rgb(242, 204, 242);
+    padding: 6px;
+    border-radius: 5px;
+}
+.imagetitle{
+    border:3px blue solid;
+    margin:20px;
+}
+.worker-name1:hover{
+    color:darkviolet
+}
